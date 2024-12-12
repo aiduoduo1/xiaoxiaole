@@ -1,0 +1,16 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <canvas 
+    type="2d" 
+    id="gameCanvas"
+    class="game-canvas"
+    bindtouchstart="onTouchStart"
+    bindtouchmove="onTouchMove"
+  ></canvas>
+
+  <view wx:if="{{gameOver}}" class="game-over">
+    <text class="game-over-text">游戏结束</text>
+    <text class="final-score">最终得分: {{score}}</text>
+    <button class="restart-btn" bindtap="restartGame">重新开始</button>
+  </view>
+</view>

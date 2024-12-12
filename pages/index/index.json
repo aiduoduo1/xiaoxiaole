@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "ai-group": "/miniprogram_npm/edu-miniprogram-components/ai-group/ai-group",
+    "ai-popup": "/miniprogram_npm/edu-miniprogram-components/ai-popup/ai-popup",
+    "ai-chat": "/miniprogram_npm/edu-miniprogram-components/ai-chat/ai-chat",
+    "ai-quickchat": "/miniprogram_npm/edu-miniprogram-components/ai-quickchat/ai-quickchat",
+    "ai-rag": "/miniprogram_npm/edu-miniprogram-components/ai-rag/ai-rag",
+    "ai-bot-name": "/miniprogram_npm/edu-miniprogram-components/ai-bot-name/ai-bot-name",
+    "ai-content": "/miniprogram_npm/edu-miniprogram-components/ai-content/ai-content",
+    "ai-personality": "/miniprogram_npm/edu-miniprogram-components/ai-personality/ai-personality",
+    "itable": "/miniprogram_npm/edu-miniprogram-components/interact-table/interact-table",
+    "mcontent": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content",
+    "tcanvas": "/miniprogram_npm/edu-miniprogram-components/turtle-canvas/turtle-canvas"
+  }
+}

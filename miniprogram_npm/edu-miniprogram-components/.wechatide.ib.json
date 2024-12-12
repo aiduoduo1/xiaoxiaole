@@ -1,0 +1,637 @@
+{
+    "key": "EDU",
+    "label": "教育组件",
+    "components": {
+        "mcontent": {
+            "key": "mcontent",
+            "label": "内容",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<mcontent />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-text": {
+            "label": "文字",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-textarea.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-text type=\"text\" detail=\"这是一段文字\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-title": {
+            "label": "标题",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-title.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-title type=\"title\" detail=\"这是标题\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-heading": {
+            "label": "小标题",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-heading.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-heading type=\"heading\" detail=\"这是小标题\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-image": {
+            "label": "图片",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-image.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-image type=\"image\" detail=\"https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/self/placeholder.jpg\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-bgi": {
+            "label": "背景图片",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-bgi.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-bgi style=\"z-index: -999; position: fixed; height: 100vh\" type=\"background-image\" detail=\"https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/self/bgi.jpg\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-video": {
+            "label": "视频",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-video.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-video type=\"video\" detail=\"https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/self/placeholder.jpg\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-audio": {
+            "label": "音频",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-video.mp4",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-audio type=\"audio\" detail=\"https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/self/example-audio.mp3\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-audio-auto": {
+            "label": "自动播放音频",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-video.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-audio-auto type=\"audio-auto\" detail=\"https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/self/example-audio.mp3\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-callout": {
+            "label": "强调",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-callout.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-callout type=\"callout\" detail=\"这是一段突出显示的文字\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-block": {
+            "label": "块",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-block.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-block type=\"block\" detail=\"rgba(255,255,255,0.5)\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-divider": {
+            "label": "分割",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-divider.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-divider type=\"divider\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "edu-button": {
+            "label": "按钮",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/mcontent/mcontent-button.jpg",
+            "properties": [{
+                "key": "type",
+                "type": ["String"],
+                "desc": "内容形式",
+                "label": ""
+            }, {
+                "key": "detail",
+                "type": ["String"],
+                "desc": "内容细节（如显示的文字、图片的地址）",
+                "label": ""
+            }, {
+                "key": "link",
+                "type": ["String"],
+                "desc": "点击后的跳转页面路径（空则为不跳转）",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<edu-button type=\"button\" detail=\"按钮\" link=\"/pages/index/index\"/>",
+            "path": "/miniprogram_npm/edu-miniprogram-components/multi-content/multi-content"
+        },
+        "itable": {
+            "key": "itable",
+            "label": "表格",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/itable/itable.jpg",
+            "properties": [{
+                "key": "id",
+                "type": ["String"],
+                "desc": "用于在js文件中选择该组件",
+                "label": ""
+            }, {
+                "key": "title",
+                "type": ["String"],
+                "desc": "标题",
+                "label": ""
+            }, {
+                "key": "width",
+                "type": ["String"],
+                "desc": "宽度（仅支持rpx，如：600rpx）",
+                "label": ""
+            }, {
+                "key": "height",
+                "type": ["String"],
+                "desc": "高度（仅支持rpx，如：800rpx）",
+                "label": ""
+            }, {
+                "key": "keys",
+                "type": ["Array"],
+                "desc": "字段",
+                "label": ""
+            }, {
+                "key": "records",
+                "type": ["Array"],
+                "desc": "所包含的记录",
+                "label": ""
+            }, {
+                "key": "globalStorage",
+                "type": ["String"],
+                "desc": "托管的全局数据",
+                "label": ""
+            }, {
+                "key": "hideHeader",
+                "type": ["Boolean"],
+                "desc": "是否隐藏表头",
+                "label": ""
+            }, {
+                "key": "hidden",
+                "type": ["Boolean"],
+                "desc": "是否隐藏表格",
+                "label": ""
+            }, {
+                "key": "transpose",
+                "type": ["Boolean"],
+                "desc": "是否转置（表头显示在左侧第一列）",
+                "label": ""
+            }, {
+                "key": "showAddButton",
+                "type": ["Boolean"],
+                "desc": "是否显示新增记录按钮",
+                "label": ""
+            }],
+            "events": [{
+                "key": "bindrecordsupdate",
+                "desc": "表格数据更新时触发",
+                "label": ""
+            }],
+            "tpl": "<itable />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/interact-table/interact-table"
+        },
+        "turtle-canvas": {
+            "label": "绘图",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/tcanvas/tcanvas.jpg",
+            "properties": [{
+                "key": "id",
+                "type": ["String"],
+                "desc": "用于在js文件中选择该组件",
+                "label": ""
+            }, {
+                "key": "width",
+                "type": ["Number"],
+                "desc": "宽度（仅支持rpx，如：600）",
+                "label": ""
+            }, {
+                "key": "height",
+                "type": ["Number"],
+                "desc": "高度（仅支持rpx，如：800）",
+                "label": ""
+            }, {
+                "key": "repl",
+                "type": ["Boolean"],
+                "desc": "是否显示repl",
+                "label": ""
+            }, {
+                "key": "background-color",
+                "type": ["String"],
+                "desc": "画布的背景颜色",
+                "label": ""
+            }, {
+                "key": "background-image",
+                "type": ["String"],
+                "desc": "画布的背景图片",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<turtle-canvas />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/turtle-canvas/turtle-canvas"
+        },
+        "turtle-canvas-repl": {
+            "label": "单个指令绘图",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/tcanvas/tcanvas-repl.jpg",
+            "properties": [{
+                "key": "id",
+                "type": ["String"],
+                "desc": "用于在js文件中选择该组件",
+                "label": ""
+            }, {
+                "key": "width",
+                "type": ["Number"],
+                "desc": "宽度（仅支持rpx，如：600）",
+                "label": ""
+            }, {
+                "key": "height",
+                "type": ["Number"],
+                "desc": "高度（仅支持rpx，如：800）",
+                "label": ""
+            }, {
+                "key": "repl",
+                "type": ["Boolean"],
+                "desc": "是否显示repl",
+                "label": ""
+            }, {
+                "key": "background-color",
+                "type": ["String"],
+                "desc": "画布的背景颜色",
+                "label": ""
+            }, {
+                "key": "background-image",
+                "type": ["String"],
+                "desc": "画布的背景图片",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<turtle-canvas-repl repl/>",
+            "path": "/miniprogram_npm/edu-miniprogram-components/turtle-canvas/turtle-canvas"
+        },
+        "ai-group": {
+            "label": "AI对话组",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/ai/aigroup.jpg",
+            "properties": [],
+            "events": [],
+            "tpl": "<ai-group></ai-group>",
+            "path": "/miniprogram_npm/edu-miniprogram-components/ai-group/ai-group"
+        },
+        "ai-chat": {
+            "label": "AI对话框",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/ai/aichat.jpg",
+            "properties": [],
+            "events": [],
+            "tpl": "<ai-chat />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/ai-chat/ai-chat"
+        },
+        "ai-quickchat": {
+            "label": "AI快速对话按钮",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/ai/aiquickchat.jpg",
+            "properties": [{
+                "key": "detail",
+                "type": ["String"],
+                "desc": "快速对话的内容。",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<ai-quickchat detail=\"介绍微信小程序\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/ai-quickchat/ai-quickchat"
+        },
+        "ai-bot-name": {
+            "label": "AI机器人名称",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/ai/aibotname.jpg",
+            "properties": [{
+                "key": "detail",
+                "type": ["String"],
+                "desc": "机器人的姓名。",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<ai-bot-name detail=\"小薇\"/>",
+            "path": "/miniprogram_npm/edu-miniprogram-components/ai-bot-name/ai-bot-name"
+        },
+        "ai-content": {
+            "label": "AI机器人描述",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/ai/aicontent.jpg",
+            "properties": [{
+                "key": "detail",
+                "type": ["String"],
+                "desc": "对机器人的描述，会影响机器人的回答风格。",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<ai-content detail=\"非常喜欢打比方。\"/>",
+            "path": "/miniprogram_npm/edu-miniprogram-components/ai-content/ai-content"
+        },
+        "ai-personality": {
+            "label": "AI机器人性格",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/ai/aipersonality.jpg",
+            "properties": [{
+                "key": "detail",
+                "type": ["String"],
+                "desc": "机器人的性格，会影响机器人的回答风格。",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<ai-personality detail=\"搞怪\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/ai-personality/ai-personality"
+        },
+        "ai-rag": {
+            "label": "AI知识库",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/ai/airag.jpg",
+            "properties": [{
+                "key": "detail",
+                "type": ["String"],
+                "desc": "添加一条知识。比如你学校的文字介绍，然后尝试询问小程序关于你们学校的信息。",
+                "label": ""
+            }],
+            "events": [],
+            "tpl": "<ai-rag detail=\"\" />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/ai-rag/ai-rag"
+        },
+        "ai-popup": {
+            "label": "AI弹窗",
+            "icon": "https://t73-cloudfile.oss-cn-zhangjiakou.aliyuncs.com/super/mini/ide_assets/components/icons/ai/aipopup.jpg",
+            "properties": [
+                {
+                    "key": "rag_1",
+                    "type": ["String"],
+                    "desc": "添加一条知识。比如你学校的文字介绍，然后尝试询问小程序关于你们学校的信息。",
+                    "label": ""
+                },
+                {
+                    "key": "rag_2",
+                    "type": ["String"],
+                    "desc": "添加一条知识。比如你学校的文字介绍，然后尝试询问小程序关于你们学校的信息。",
+                    "label": ""
+                },
+                {
+                    "key": "personality",
+                    "type": ["String"],
+                    "desc": "描述AI助手的性格。",
+                    "label": ""
+                },
+                {
+                    "key": "content",
+                    "type": ["String"],
+                    "desc": "AI助手的详尽描述，须与其性格相关联。",
+                    "label": ""
+                },
+                {
+                    "key": "quickchat_1",
+                    "type": ["String"],
+                    "desc": "快速聊天的内容。",
+                    "label": ""
+                },
+                {
+                    "key": "quickchat_2",
+                    "type": ["String"],
+                    "desc": "快速聊天的内容。",
+                    "label": ""
+                },
+                {
+                    "key": "quickchat_3",
+                    "type": ["String"],
+                    "desc": "快速聊天的内容。",
+                    "label": ""
+                },
+                {
+                    "key": "quickchat_4",
+                    "type": ["String"],
+                    "desc": "快速聊天的内容。",
+                    "label": ""
+                }
+            ],
+            "events": [],
+            "tpl": "<ai-popup />",
+            "path": "/miniprogram_npm/edu-miniprogram-components/ai-popup/ai-popup"
+        }
+    },
+    "common": {
+        "properties": {},
+        "events": {}
+    },
+    "menu": [
+        {
+            "key": "menu-mcontent",
+            "label": "内容",
+            "submenu": [{
+                "key": "subMenu-multicontent",
+                "label": "内容",
+                "components": [
+                    "mcontent", "edu-title", "edu-heading",
+                    "edu-text", "edu-image", "edu-bgi",
+                    "edu-video", "edu-audio", "edu-audio-auto", "edu-callout", "edu-block",
+                    "edu-divider", "edu-button"
+                ]
+            }]
+        },
+        {
+            "key": "menu-itable",
+            "label": "表格",
+            "submenu": [{
+                "key": "subMenu-itable",
+                "label": "表格",
+                "components": ["itable"]
+            }]
+        },
+        {
+            "key": "menu-tcanvas",
+            "label": "绘图",
+            "submenu": [{
+                "key": "subMenu-tcanvas",
+                "label": "绘图",
+                "components": ["turtle-canvas", "turtle-canvas-repl"]
+            }]
+        },
+        {
+            "key": "menu-ai",
+            "label": "AI对话",
+            "submenu": [{
+                "key": "subMenu-aigroup",
+                "label": "AI对话",
+                "components": ["ai-popup", "ai-group", "ai-chat", 
+                    "ai-quickchat", "ai-bot-name",
+                    "ai-content", "ai-personality", "ai-rag"]
+            }]
+        }
+    ]
+}
